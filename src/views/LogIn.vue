@@ -1,20 +1,24 @@
 <template>
   <body class="bodyLogin">
     <div class="divLogin">
-      <h3 style="padding:10px; text-align:center">Bienvenido, inicia sesión para continuar</h3>
-        <div class="form-group">
-          <label class="labelLogin">Usuario</label>
+      <div style="padding:5px;">
+        <h3 style="margin-left:-15px">Welcome back</h3>
+        <p class="text-secondary" style="margin-left:-15px; margin-top:-10px">Welcome back! Please enter your details</p>
+      </div>
+        <div class="row" style="margin-top:-10px">
+          <label class="labelLogin">Username</label>
           <input type="email" v-model="usuario" class="form-control" placeholder="Usuario o Email" />
         </div>
 
-        <div>
-          <label class="labelLogin">Contraseña</label>
+        <div class="row" style="margin-top:10px">
+          <label class="labelLogin">Password</label>
           <input type="password" v-model="contraseña" class="form-control" placeholder="•••••••" />
         </div>
 
         <br>
-
-        <button class="btn btn-primary btn-block">Iniciar Sesión</button>
+        <div class="row">
+          <button class="btn btn-primary btn-block" style="background-color:#1A2526">Iniciar Sesión</button>
+        </div>
     </div>
   </body>
 </template>
