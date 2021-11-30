@@ -7,22 +7,22 @@
       </div>
         <div class="row" style="margin-top:-10px">
           <label class="labelLogin">Username</label>
-          <input type="email" v-model="usuario" class="form-control" placeholder="Usuario o Email" />
+          <input type="email" v-model="user" class="form-control" placeholder="Username or Email" />
         </div>
 
         <div class="row" style="margin-top:10px">
           <label class="labelLogin">Password</label>
-          <input type="password" v-model="contraseña" class="form-control" placeholder="•••••••" />
+          <input type="password" v-model="password" class="form-control" placeholder="•••••••" />
         </div>
 
         <br>
         <div class="row">
-          <button class="btn btn-primary btn-block" style="background-color:#1A2526">Iniciar Sesión</button>
+          <button class="btn btn-primary btn-block" style="background-color:#1A2526">Log In</button>
         </div>
 
         <div class="d-flex justify-content-center" style="margin-top:15px; margin-bottom:-15px">
           <p class="text-secondary" style="margin-left:-10px">Don't have an account?</p>
-          <a class="text-primary" style="margin-left:5px">Sign up</a>
+          <a href="SignUp" class="text-primary" style="margin-left:5px">Sign up</a>
         </div>
     </div>
   </body>
@@ -31,11 +31,11 @@
 <script>
 
 export default {
-  name: 'login',
+  name: 'LogIn',
   data() {
     return {
-      usuario: "",
-      contraseña: "",
+      user: "",
+      password: "",
     }
   },
   methods: {
