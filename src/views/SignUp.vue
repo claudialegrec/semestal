@@ -68,7 +68,7 @@
 
         <br>
         <div class="row">
-          <button class="btn btn-primary btn-block" style="background-color:#1A2526">Sign Up</button>
+          <button class="btn btn-primary btn-block" style="background-color:#1A2526" @click="signup()">Sign Up</button>
         </div>
 
         <div class="d-flex justify-content-center" style="margin-top:15px; margin-bottom:-15px">
@@ -102,7 +102,9 @@ export default {
   mounted () {
   },
   methods: {
-
+    signup() {
+      this.$router.replace({ path: 'Home'})
+    }
   },
   watch: {
     usertype (val){

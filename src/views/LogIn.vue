@@ -17,7 +17,7 @@
 
         <br>
         <div class="row">
-          <button class="btn btn-primary btn-block" style="background-color:#1A2526">Log In</button>
+          <button class="btn btn-primary btn-block" style="background-color:#1A2526" @click="login()">Log In</button>
         </div>
 
         <div class="d-flex justify-content-center" style="margin-top:15px; margin-bottom:-15px">
@@ -29,7 +29,6 @@
 </template>
 
 <script>
-
 export default {
   name: 'LogIn',
   data() {
@@ -39,7 +38,9 @@ export default {
     }
   },
   methods: {
-
+    login() {
+      this.$router.replace({ path: 'Home'})
+    }
   }
 }
 </script>

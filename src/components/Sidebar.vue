@@ -12,14 +12,14 @@
 
     <ul class="nav nav-pills flex-column mb-auto">
       <li class="nav-item">
-        <a href="#" class="nav-link active">
+        <a href="Home" class="nav-link active">
           <font-awesome-icon :icon="['fa', 'home']" style="margin-right:10px" />
           Home
         </a>
       </li>
 
       <li>
-        <a href="#" class="nav-link text-white">
+        <a href="Schedule" class="nav-link text-white">
           <font-awesome-icon :icon="['fa', 'calendar-alt']" style="margin-right:10px" />
           Agenda
         </a>
@@ -28,7 +28,7 @@
       <hr>
 
       <li>
-        <a href="#" class="nav-link text-white">
+        <a href="UserInfo" class="nav-link text-white">
           <font-awesome-icon :icon="['fa', 'user']" style="margin-right:10px" />
           Usuario
         </a>
