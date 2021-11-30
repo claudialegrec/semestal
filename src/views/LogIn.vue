@@ -19,6 +19,11 @@
         <div class="row">
           <button class="btn btn-primary btn-block" style="background-color:#1A2526">Iniciar Sesión</button>
         </div>
+
+        <div class="d-flex justify-content-center" style="margin-top:15px; margin-bottom:-15px">
+          <p class="text-secondary" style="margin-left:-10px">Don't have an account?</p>
+          <a class="text-primary" style="margin-left:5px">Sign up</a>
+        </div>
     </div>
   </body>
 </template>
